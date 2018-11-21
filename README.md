@@ -2,6 +2,7 @@
 Be based on Apereo cas 4.0+, the project can return sso client's login page or json (some sso clients' theme may be different with others, or some sso clients is C/S mode need return json by sso server), by setting the login url on sso client.
 
 Steps:
+
 1.Import it to eclipse;
 
 2.Need CAS clients. (configuration is same with Apereo CAS(4.2), make sure the CAS client can conmmunicate with Apereo CAS(4.2));
@@ -17,6 +18,7 @@ Steps:
   
 5.The CAS server will request your login url with some request parameters (such as 'lt', 'execution', etc.). 
   put them to login page in form. the form is needed:
+  
   < form method="post" >
       < input type="text" id="username" name="username" />
       < input type="password" id="password" name="password" />

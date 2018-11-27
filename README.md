@@ -29,3 +29,8 @@ Steps:
   </ form>
   
 6.The login page's css, image, js etc. the url of them is your CAS client's resource.
+
+Tips:
+
+This project not support web-server cluster mode. if you want to try cluster mode visit the url:
+https://github.com/liyingqiao121727/single-sign-on-v2
